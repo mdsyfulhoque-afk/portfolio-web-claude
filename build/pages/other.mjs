@@ -1,7 +1,7 @@
 // Evidence ledger, About, Contact, ProposalDesk, Insights, Privacy, 404, legacy redirects.
 import { e, arr, pad } from '../html.mjs';
-import { ledger, person, guides, packs, site, photo, origin, cases, allAssignments } from '../data.mjs';
-import { print, crumbs, doors, tag } from '../components.mjs';
+import { profile, ledger, person, guides, packs, site, photo, origin, cases, allAssignments } from '../data.mjs';
+import { print, crumbs, doors, tag, fxAttr } from '../components.mjs';
 import { crumbLd, personLd } from '../layout.mjs';
 import { closing } from './home.mjs';
 
@@ -24,6 +24,34 @@ ${closing()}`;
   return { route: '/evidence/', title: 'Evidence ledger', description: 'Every figure, method, assignment and photograph on the site, with its address and source.', body, jsonld: [crumbLd(trail)] };
 }
 
+// Owner-supplied profile (content/profile.json): figures → capabilities → sectors → clients, one sheet style throughout.
+function aboutProfile() {
+  const P = profile, wb = P.worldBank;
+  const list = items => `<ul class="tick-list">${items.map(i => `<li>${e(i)}</li>`).join('')}</ul>`;
+  return `<section class="section wrap" aria-labelledby="profile-t">
+<div class="section-head"><p class="eyebrow"><b>PROFILE</b><span>In his own account</span></p><h2 class="display-l" id="profile-t">Economist. Consulting leader. Development practitioner.</h2><p class="section-aside">The figures below are Syful Hoque’s own statement. The work board documents the assignments in his CV record.</p></div>
+<div class="profile-figs">${P.figures.map(([addr, v, label]) => `<div${fxAttr(addr)}><b>${e(v)}</b><span>${e(label)}</span></div>`).join('')}</div>
+<div class="prose profile-prose">${P.summary.map(p => `<p>${e(p)}</p>`).join('')}</div>
+</section>
+<section class="section wrap" aria-labelledby="wb-t"><div class="two-col"><div class="main">
+<p class="eyebrow"><b>WORLD BANK</b><span>${e(wb.role)}</span></p>
+<h2 class="heading-l" id="wb-t" style="margin:12px 0 20px">${e(wb.title)}</h2>
+<div class="prose">${wb.paras.map(p => `<p>${e(p)}</p>`).join('')}</div>
+</div><aside class="side"><div class="side-block"><h2>What the role involved</h2>${list(wb.points)}</div></aside></div></section>
+<section class="section wrap" aria-labelledby="cap-t">
+<div class="section-head"><p class="eyebrow"><b>CAPABILITIES</b><span>Six groups</span></p><h2 class="display-l" id="cap-t">What he brings to an assignment.</h2></div>
+<div class="cap-grid">${P.capabilities.map(([n, h, items]) => `<article class="cap"><span class="cap__n">${e(n)}</span><h3>${e(h)}</h3>${n === '06' ? `<div class="chips">${items.map(i => `<span class="chip">${e(i)}</span>`).join('')}</div>` : list(items)}</article>`).join('')}</div>
+</section>
+<section class="section wrap" aria-labelledby="sec-t">
+<div class="section-head"><p class="eyebrow"><b>SECTORS</b><span>Coverage so far</span></p><h2 class="display-l" id="sec-t">Where the work has been.</h2></div>
+<div class="cap-grid cap-grid--2">${P.sectors.map(([h, items], i) => `<article class="cap"><span class="cap__n">S${i + 1}</span><h3>${e(h)}</h3>${list(items)}</article>`).join('')}</div>
+</section>
+<section class="section wrap" aria-labelledby="cli-t">
+<div class="section-head"><p class="eyebrow"><b>CLIENTS</b><span>So far</span></p><h2 class="display-l" id="cli-t">Who he has worked for.</h2><p class="section-aside">Institutional names describe assignment relationships, not endorsements.</p></div>
+<div class="client-groups">${P.clients.map(([h, items]) => `<div class="client-group"><h3>${e(h)} <span class="mono muted">${items.length}</span></h3><div class="chips">${items.map(i => `<span class="chip">${e(i)}</span>`).join('')}</div></div>`).join('')}</div>
+</section>`;
+}
+
 export function aboutPage() {
   const trail = [['/', 'Home'], ['/about/', 'About']];
   const tl = [
@@ -41,10 +69,11 @@ export function aboutPage() {
 <div class="about-hero__text">${crumbs(trail)}
 <p class="eyebrow"><b>ABOUT</b><span>Mohammad Syful Hoque</span></p>
 <h1 class="display-l">One capability. Many real-world contexts.</h1>
-<p class="lede">A Dhaka-based economist specialising in costing, financing, and economic and financial appraisal.</p>
+<p class="lede">${e(profile.lede)}</p>
 <div class="prose"><p>Since 2008 his assignments have been for and with the Asian Development Bank, the World Bank Group, the European Commission, UNCTAD, JICA and the Gates Foundation, and for Bangladeshi public bodies including the Payra Seaport Authority and Dhaka South City Corporation. The work spans feasibility studies, cost estimates, ENPV/EIRR and sensitivity analysis, financing plans, results frameworks, impact evaluations including randomised trials, and policy research on trade, LDC graduation and green transition.</p><p>He is currently Economic and Financial Analysis Specialist on an ADB regional technical assistance for early-warning systems.</p></div>
 <div class="actions"><a class="btn btn--primary" href="/contact/">Start a brief ${arr}</a><a class="btn btn--quiet" href="/evidence/">The evidence ledger</a></div>
 </div></div></section>
+${aboutProfile()}
 <section class="section wrap"><div class="section-head"><p class="eyebrow"><b>TIMELINE</b><span>Selected moments from the record</span></p><h2 class="display-l">From the field to the table.</h2></div>
 <ol class="timeline">${tl.map(([y, h, p, img]) => `<li><span class="yr">${y}</span><div><h3>${e(h)}</h3><p>${e(p)}</p></div>${img ? `<img src="/assets/media/${img}-480.webp" alt="${e(photo(img).alt)}" width="480" height="360" loading="lazy">` : '<span></span>'}</li>`).join('')}</ol></section>
 <section class="section wrap"><div class="two-col"><div class="main">

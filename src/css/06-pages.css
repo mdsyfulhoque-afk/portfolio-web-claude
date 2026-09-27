@@ -153,3 +153,24 @@
 .target-note{display:none;margin-bottom:var(--space-4);padding:12px 14px;border:1px solid var(--line);border-left:3px solid var(--evidence);background:var(--paper-raised);font-family:var(--font-display);font-size:15px}
 #sent:target{display:block}
 #direct:target .target-note--direct{display:block;border-left-color:var(--markup)}
+
+/* About: owner profile, capabilities, sectors, clients */
+.profile-figs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-bottom:var(--space-6)}
+.profile-figs div{display:grid;gap:6px;padding:var(--space-5) var(--space-4);border-left:1px solid var(--grid)}
+.profile-figs div:first-child{border-left:0;padding-left:0}
+.profile-figs b{font-family:var(--font-mono);font-weight:500;font-size:clamp(2rem,4vw,3.2rem);line-height:1;color:var(--evidence);font-stretch:88%}
+.profile-figs span{font-family:var(--font-display);font-size:15px;max-width:30ch}
+.profile-prose{columns:2 32ch;column-gap:var(--sheet-gap)}
+.profile-prose p{break-inside:avoid}
+.cap-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid var(--line);border-left:1px solid var(--grid)}
+.cap-grid--2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.cap{display:grid;align-content:start;gap:var(--space-3);padding:var(--space-5);border-right:1px solid var(--grid);border-bottom:1px solid var(--grid);background:var(--paper-raised)}
+.cap__n{font-family:var(--font-mono);font-size:11px;color:var(--markup);letter-spacing:.06em}
+.cap h3{font-family:var(--font-display);font-weight:700;font-stretch:82%;font-size:22px;line-height:1.05}
+.tick-list{display:grid;gap:8px}
+.tick-list li{position:relative;padding-left:18px;font-size:15px;line-height:1.45}
+.tick-list li::before{content:"";position:absolute;left:0;top:.55em;width:8px;height:8px;background:var(--evidence)}
+.client-groups{display:grid;gap:0;border-top:1px solid var(--line)}
+.client-group{display:grid;grid-template-columns:minmax(0,4fr) minmax(0,8fr);gap:var(--sheet-gap);padding-block:var(--space-5);border-bottom:1px solid var(--grid)}
+.client-group h3{font-family:var(--font-display);font-weight:650;font-size:18px;line-height:1.2}
+@media (max-width:899px){.profile-figs,.cap-grid,.cap-grid--2{grid-template-columns:1fr}.profile-figs div{border-left:0;padding-left:0;border-top:1px solid var(--grid)}.client-group{grid-template-columns:1fr}.profile-prose{columns:1}}

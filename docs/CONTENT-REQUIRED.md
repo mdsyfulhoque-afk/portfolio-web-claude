@@ -18,7 +18,7 @@ The site publishes only what the record supports. The items below are withheld o
 | 3 | **Assignment dates that conflict between sources**: B2, B3, B4, B5, B7, B19, B27, B28 | Periods hidden; year ranges used only where they agree. Supply agreed start and end months. |
 | 4 | **Periods for other assignments** (B29–B37) | Shown without dates. |
 | 5 | **FSI lecture dating**: the banner reads October 2013; ADB's FSI technical assistance in the record is 2014–2015 | About timeline says "The dating of this role against the record is being confirmed." Confirm the role behind the 2013 workshop. |
-| 6 | **Years of experience** (CV says 20; IP3 profile says 17) | Site says "since 2008" only. |
+| 6 | **Years of experience** | Resolved: owner stated 20 years (About, ledger A11). |
 | 7 | **LinkedIn URL** | Not shown (`person.linkedin` is a placeholder in `portfolio.json`). |
 | 8 | **Email on the professional domain** | The site shows the Gmail address from the record. |
 | 9 | **Role at IP3 Consulting** | Not mentioned. |

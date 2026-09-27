@@ -1,0 +1,47 @@
+{
+  "_note": "Owner-supplied About content (statement of 28 Sep 2026). Figures here are the owner's own statement and are registered in the Evidence Ledger as A10–A12 with that source; the work board shows the assignments documented in the CV record. Institution names are relationships, not endorsements.",
+  "source": "Owner statement, 28 Sep 2026",
+  "lede": "An economist and management-consulting leader: economic, financial, social and environmental cost-benefit analysis, modelling and feasibility studies, with the research, policy and advocacy insight to carry them into decisions.",
+  "summary": [
+    "Syful Hoque combines economic credentials with long experience leading management consulting work — engaging in-house staff, clients and the global development community in meaningful dialogue. His lead services are economic, financial, social and environmental cost-benefit analysis, modelling and feasibility studies.",
+    "He has taken part in more than 100 government and international-donor-funded programmes across the public and private sectors, and has spent 20 years designing, delivering and assessing development, policy and intervention programmes with a focus on South Asia.",
+    "His assignments have ranged from agriculture to industrial development, from socio-economic problems to vulnerability and inequality, from infrastructure to technology adoption, from public health to public finance, and from investment to trade policy — research-based and programme-based, sometimes as an economist, sometimes as a researcher, sometimes as a development practitioner.",
+    "Across them he has worked with full access to government, the international donor community, research institutions and development banks, local implementers, investors and beneficiaries — and has worked directly with investors and national bodies to leverage resources for investment, preparing business, investment and financing plans and models for national institutes, private companies and large nationwide programmes."
+  ],
+  "figures": [
+    ["A10", "100+", "government and donor-funded programmes taken part in"],
+    ["A11", "20 years", "designing, delivering and assessing programmes, South Asia focus"],
+    ["A12", "5 years", "Economist (STC), Office of the Chief Economist for South Asia, World Bank"]
+  ],
+  "worldBank": {
+    "title": "Five years inside the World Bank’s South Asia Chief Economist’s office.",
+    "role": "Economist (STC) · Office of the Chief Economist for South Asia (SARCE) · World Bank",
+    "paras": [
+      "He managed a range of analytical and operational projects and World Bank-commissioned surveys in Bangladesh from scratch — from design and budgeting through research input to implementation, coordination and dissemination.",
+      "The role meant balancing competing demands from economists in the Finance, Competitiveness & Innovation (FCI) and Equitable Growth, Finance & Institutions (EFI) Global Practices, alongside ad-hoc research requests from other departments."
+    ],
+    "points": ["Hiring and assembling teams — firms and professionals", "Designing and budgeting surveys and studies", "Research input and implementation", "Coordination across Global Practices", "Dissemination of findings"]
+  },
+  "capabilities": [
+    ["01", "Economic analysis & appraisal", ["Economic, financial, social and environmental cost-benefit analysis", "Economic and financial modelling", "Feasibility studies", "Business, investment and financing plans and models"]],
+    ["02", "Management consulting & leadership", ["Leading, creating, scaling and optimising donor-funded programmes", "Hiring and assembling teams of firms and professionals", "Leading research firms and multi-disciplinary teams", "Engaging government, donors, investors, implementers and beneficiaries"]],
+    ["03", "Research, policy & advocacy", ["Policy and advisory work", "Thematic research, reports and policy notes", "Capacity building", "Thought leadership for the development community"]],
+    ["04", "Impact evaluation & MEL", ["Experimental impact evaluation (RCTs)", "Social impact, livelihoods and economic development", "Programme design, M&E, MRM and MEL frameworks", "Baseline, midline and endline studies"]],
+    ["05", "Surveys & data", ["Large nationwide surveys", "Mobile and tablet surveys (ODK, SurveyCTO)", "FGDs and key informant interviews", "Survey and data analysis"]],
+    ["06", "Tools", ["Stata", "SPSS", "EViews", "ArcGIS", "MS Excel", "ODK · SurveyCTO"]]
+  ],
+  "sectors": [
+    ["Public & private sector development", ["Public-private partnership and coordination", "Private investment and business-climate advisory", "Capacity building of government, business and trade institutions", "Public finance, market and financing studies", "Local governance: water, energy, solid and plastic waste, faecal sludge management, sewerage, sanitation and STPs"]],
+    ["Sustainable development (SDG targets)", ["Poverty and livelihoods", "Agriculture", "Health and nutrition", "WASH and energy"]],
+    ["Industry, business, market & value chain", ["Industrial environment, compliance, employment and labour rights", "Financial risk and performance", "Industry and market value chains", "Manufacturing and MSMEs: jobs, productivity, technology, sustainability and competitiveness"]],
+    ["Energy, infrastructure & environment", ["Renewable energy (solar home systems)", "Energy-efficient appliances", "Special Economic Zone development", "Economic analysis for port development", "Dhaka sanitation improvement plan"]]
+  ],
+  "clients": [
+    ["Development banks & multilateral bodies", ["World Bank Group", "Asian Development Bank", "International Finance Corporation", "European Commission — Delegation to Bangladesh", "World Trade Organization", "UNCTAD", "RIMES"]],
+    ["Government", ["Ministry of Finance", "Dhaka South City Corporation", "Payra Port Authority"]],
+    ["Universities & research organisations", ["Tufts University", "Center for Development Research (ZEF), University of Bonn", "KIET, Korea", "Johns Hopkins University", "Columbia University", "Innovations for Poverty Action (IPA)"]],
+    ["International NGOs, foundations & development partners", ["BRAC", "Bill & Melinda Gates Foundation", "WaterAid", "CARE International UK", "CLASP", "JICA", "DFID (UK)", "Concern Worldwide", "Japan Development Institute", "Campaign for Tobacco-Free Kids", "CUTS International", "Manusher Jonno Foundation", "Alliance Forum Foundation", "Ajinomoto Foundation"]],
+    ["Management consulting firms", ["PwC (UK)", "ICF International (UK)", "Transports & Infrastructures Expertise Group EEIG (TIEG)", "C&M Consulting & Management Ltd", "TAS Euro Projects (Belgium)"]],
+    ["Market & business clients", ["JETRO", "Sumitomo Corporation (Japan)", "Morinaga (Japan)", "East Coast Group", "Berger Paints", "Local conglomerates, industries, trade bodies and business associations"]]
+  ]
+}

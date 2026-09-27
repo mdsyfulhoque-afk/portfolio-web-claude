@@ -24,7 +24,6 @@ const text = s => s.replace(/<script[\s\S]*?<\/script>/g, ' ').replace(/<style[\
 
 // Claims the record does not support (MASTER-PROMPT §3.4 plus the base site's list).
 const BANNED = [
-  [/\b\d{1,2}\s*\+?\s*years?\s+of\s+experience/i, 'years-of-experience figure (use "since 2008")'],
   [/75\+\s*projects|30\+\s*global partners|1,200 firms/i, 'unsupported base-site statistic'],
   [/first[- ]of[- ]its[- ]kind|single-handedly|most chosen/i, 'unsupported superlative'],
   [/USD\s*1\.5\s*bn|sum of scope/i, 'summed scope figure'],
@@ -32,7 +31,7 @@ const BANNED = [
   [/\bUNDP\b|\bUNESCO\b/, 'UNDP/UNESCO engagement (IP3 profile only)'],
   [/\b(DPP|TAPP)\b/, 'DPP/TAPP authorship'],
   [/\bCGE\b|difference-in-differences|propensity score|\bGHG accounting|carbon shadow price/i, 'method the record never names'],
-  [/\b(Stata|SurveyCTO|Python)\b/, 'named software the record never names'],
+  [/\bPython\b/, 'named software the owner has not listed'],
   [/date of birth|\breferees?\b/i, 'CV personal data (DOB/referees)'],
   [/win rate|success rate of \d|\b\d+% (win|success)/i, 'win rate'],
   [/(?:\$|BDT|Tk\.?)\s?\d[\d,]*(?:\.\d+)?\s*(?:per|\/)\s*(?:day|hour|month|page)/i, 'price'],

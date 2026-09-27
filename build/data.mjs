@@ -7,6 +7,7 @@ export const site = await json('content/site.json');
 export const photoCat = (await json('content/photos.json')).photos;
 export const media = await json('content/media.json');
 export const map = await json('content/map-scope.json');
+export const profile = await json('content/profile.json');
 
 // Canonical origin: SITE_ORIGIN, else Vercel's production domain (set automatically at build), else a placeholder
 // that `npm run check:release` refuses.
@@ -58,6 +59,7 @@ export function photo(slug) {
 // The Evidence Ledger: A identity, B assignments, C figures, D methods, E photos.
 export const ledger = [
   ...site.identity.map(([addr, claim, value, source]) => ({ addr, group: 'A', claim, value, note: '', source })),
+  ...profile.figures.map(([addr, value, claim]) => ({ addr, group: 'A', claim, value, note: 'owner statement', source: profile.source })),
   ...allAssignments.map(a => ({ addr: a.b, group: 'B', claim: a.title, value: a.role, note: [a.client, a.year].filter(Boolean).join(' · '), source: 'portfolio.json (CV FORM TECH-6, signed 09/09/2026)', href: a.id ? `/work/${a.id}/` : null })),
   ...site.facts.map(([addr, claim, value, note, source]) => ({ addr, group: 'C', claim, value, note, source })),
   ...site.methods.map(([addr, claim, value, source]) => ({ addr, group: 'D', claim, value, note: '', source })),

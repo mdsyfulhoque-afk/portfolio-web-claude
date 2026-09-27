@@ -3,13 +3,17 @@
   "promise": "The economics behind the yes.",
   "method": "Evidence. Decisions. Working systems.",
   "formula": ["Economics", "Data stories", "Technology", "Research"],
-  "lede": "Mohammad Syful Hoque — development economist, Dhaka. Costing, cost-benefit and financing analysis to ADB guidelines and the Planning Commission format, for multilateral, government and private clients. Field research and data turned into decisions, and decisions into implementation-ready packages.",
-  "proof": [
-    { "fig": "35+", "text": "documented assignments since 2008", "ref": "C1" },
-    { "fig": "12", "text": "for the World Bank Group", "ref": "C2" },
-    { "fig": "7", "text": "for ADB", "ref": "C3" },
-    { "fig": "5", "text": "as Team Leader or Team Lead", "ref": "C4" }
-  ],
+  "hero": {
+    "eyebrow": "Economist · consulting leader · South Asia",
+    "lede": "Mohammad Syful Hoque — economist and management-consulting leader, Dhaka. Economic, financial, social and environmental cost-benefit analysis, modelling and feasibility studies, carried through research, policy and advocacy to decisions that governments, development banks and investors can act on.",
+    "proof": [
+      { "fig": "20", "unit": "years", "text": "designing, delivering and assessing programmes across South Asia", "ref": "A11" },
+      { "fig": "100+", "unit": "", "text": "government and donor-funded programmes", "ref": "A10" },
+      { "fig": "5", "unit": "years", "text": "Economist, World Bank South Asia Chief Economist’s office", "ref": "A12" },
+      { "fig": "35+", "unit": "", "text": "assignments documented on this site", "ref": "C1" }
+    ],
+    "clients": ["World Bank Group", "ADB", "IFC", "European Commission", "UNCTAD", "Gates Foundation", "Ministry of Finance"]
+  },
   "families": [
     { "id": "F1", "slug": "feasibility-studies", "title": "Feasibility studies & project preparation",
       "short": "Feasibility & project preparation",

@@ -20,6 +20,7 @@ const TABLE = [
 ];
 
 function hero() {
+  const H = site.hero;
   const prints = TABLE.map((t, i) => print(t.s, {
     cls: [t.lead && 'print--lead', t.desk && 'print--desk-only'].filter(Boolean).join(' '),
     developed: !!t.lead, eager: i < 5, lazyColor: !t.lead,
@@ -30,10 +31,11 @@ function hero() {
 <div class="wrap"><div class="hero__ruler" aria-hidden="true">${'ABCDEFGHIJKL'.split('').map(c => `<span>${c}</span>`).join('')}</div></div>
 <div class="wrap"><div class="hero__inner">
 <div class="hero__text">
-<p class="eyebrow"><b>FR 00</b><span>Dhaka · development economist · since 2008</span></p>
-<h1 class="display-xl hero__title">The economics behind the <em class="hl">yes.</em></h1>
-<p class="lede">${e(site.lede)}</p>
-<ul class="hero__proof">${site.proof.map(p => `<li tabindex="0"${fxAttr(p.ref)}><b>${e(p.fig)}</b>${e(p.text)}</li>`).join('')}</ul>
+<p class="eyebrow"><b>FR 00</b><span>${e(H.eyebrow)}</span></p>
+<h1 class="display-xl hero__title">The economics<br> behind the <em class="hl">yes.</em></h1>
+<p class="lede hero__lede">${e(H.lede)}</p>
+<ul class="hero__proof">${H.proof.map(p => `<li tabindex="0"${fxAttr(p.ref)}><b>${e(p.fig)}${p.unit ? `<small>${e(p.unit)}</small>` : ''}</b><span>${e(p.text)}</span></li>`).join('')}</ul>
+<p class="hero__clients"><span>Clients include</span> ${H.clients.map(e).join(' · ')}</p>
 <div class="actions"><a class="btn btn--primary" href="/contact/?intent=multilateral" data-door-cta>Check availability for a TOR ${arr}</a><a class="btn btn--quiet" href="/work/">See the work</a></div>
 </div></div></div>
 <div class="hero__prints" data-table>${prints}<div class="loupe" aria-hidden="true" data-loupe><span class="loupe__label" data-loupe-label></span></div></div>

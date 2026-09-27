@@ -8,3 +8,6 @@ website-source-export-qa/
 /assets.7z
 /website-source-export*.zip
 /_site-package-stage-*/
+
+.vercel
+.env*

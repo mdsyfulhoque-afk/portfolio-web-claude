@@ -86,6 +86,8 @@ const vercel = {
   $schema: 'https://openapi.vercel.sh/vercel.json',
   buildCommand: 'npm run build', outputDirectory: 'dist', cleanUrls: true, trailingSlash: true,
   redirects: REDIRECTS.map(([source, destination]) => ({ source, destination, permanent: true })),
+  // trailingSlash redirects /api/enquiry → /api/enquiry/; route that back to the function.
+  rewrites: [{ source: '/api/enquiry/', destination: '/api/enquiry' }],
   headers: [
     { source: '/(.*)', headers: HEADERS.map(([key, value]) => ({ key, value })) },
     ...CACHE.map(([p, value]) => ({ source: p.endsWith('/') ? `${p}(.*)` : p, headers: [{ key: 'Cache-Control', value }] }))

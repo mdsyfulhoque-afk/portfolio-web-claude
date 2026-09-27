@@ -46,6 +46,12 @@
       "permanent": true
     }
   ],
+  "rewrites": [
+    {
+      "source": "/api/enquiry/",
+      "destination": "/api/enquiry"
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",

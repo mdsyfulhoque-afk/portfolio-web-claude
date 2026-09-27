@@ -1,28 +1,34 @@
 # Portability
 
-This editable static-site project builds with Node.js built-in modules and runs independently of ChatGPT or the original Sites host. It requires no account session, database, API key or network download to render the website.
+This project builds with Node.js built-in modules only and runs independently of any AI builder, account session or original host. No npm packages, database or network download are needed to build or render it.
 
 ## Clean setup
 
-Requirements: Node.js 22.9+ and npm 11.16.0. From the repository root:
+Requirements: Node.js 22.9+.
 
 ```sh
-npm ci
+npm ci          # installs nothing: the dependency graph is empty
 npm run build
 npm run check
-npm run start
+npm run start   # http://127.0.0.1:4173/
 ```
 
-Visit `http://127.0.0.1:4173/`. The npm dependency graph is intentionally empty, so `npm ci` installs no third-party packages. `npm run dev` rebuilds before starting the preview server.
+## What runs where
 
-## Hosting
+| Layer | Technology | Portable because |
+|---|---|---|
+| Build | `build.mjs` + `build/*.mjs`, Node built-ins | No toolchain, no install step |
+| Pages | Static HTML in `dist/` | Any static host |
+| Styles | One concatenated CSS file, self-hosted variable fonts | No CDN, no preprocessor |
+| Behaviour | Native ES modules, vendored GSAP/ScrollTrigger, WebGL2 | No bundler. Every effect degrades to a readable static page |
+| Enquiry | `api/enquiry.js`, a Web `Request → Response` handler | Runs on Vercel as-is and mounts on Netlify, Cloudflare or Node (see `docs/DEPLOYMENT.md`) |
+| Headers | Generated `vercel.json` and `_headers` from one definition | Vercel, Netlify and Cloudflare read them natively |
 
-Run `npm run build`, then publish `dist/` to a static host. The included `vercel.json` configures the build command and output directory. Set optional build-time `SITE_ORIGIN` to the public HTTPS origin if the production domain differs from the default. `.env.example` documents this setting; the project does not load `.env` automatically.
+## External services (all optional)
 
-## Runtime assets and integrations
-
-Images, fonts, font licenses, GSAP and ScrollTrigger are local under `assets/`; the browser does not download required application assets from a CDN. The optional `document.modelContext.registerTool` integration is guarded and only registers a helper if a compatible host provides that API. It does not submit or store an enquiry; the regular form works without it. `.openai/hosting.json` is retained only as inert metadata and is not read by the standalone application.
+- Resend for sending briefs, and Cloudflare Turnstile for the spam check. Both are called with plain `fetch` and enabled by environment variables.
+- Without them, the form hands a prepared brief to the visitor's own email or WhatsApp.
 
 ## Not included
 
-There is no backend, database, secret, private API, analytics account, CRM, newsletter service, payment system, file upload service or server-side lead submission. The site prepares a visitor-reviewed enquiry handoff, not a booking or submission. The original hosted edition's access rules are outside this portable project.
+There is no analytics, CRM, lead storage, newsletter, payment or file upload. `.openai/hosting.json` is inert metadata from the base export; nothing reads it.

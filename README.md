@@ -1,54 +1,45 @@
-# Syful Hoque — Evidence to Systems
+# Syful Hoque — the economics behind the yes
 
-Portable source export refreshed 28 September 2026 from the current editable website project.
+Portfolio site for Mohammad Syful Hoque, development economist, Dhaka. Version 2 ("Show your working") is built on the base export of 28 September 2026.
 
-This is the current standalone source project, not a scrape of the hosted pages and not a repackaging of an earlier export. It contains the source record, templates, styles, scripts, local assets and generated 45-route website.
+It runs as a static site plus one optional serverless function. There are no npm dependencies and nothing is tied to an AI builder's platform. It deploys to Vercel as-is and to any static host with minor configuration.
 
-## Requirements and commands
+## Commands
 
-- Node.js 22.9 or newer (the current release audit used Node.js 24.16.0)
-- npm 11.16.0 (current audit; no third-party npm packages are required)
+Requires Node.js 22.9 or newer (tested on 24.16.0).
 
 ```sh
-npm ci
-npm run build
-npm run check
-npm run start
+npm run build          # dist/ from content + templates (preview build)
+npm run check          # verify.mjs: routes, anchors, assets, JSON-LD, CSP, banned claims, ledger refs, budgets
+npm run start          # http://127.0.0.1:4173 — serves dist/ and mounts /api/enquiry
+npm run dev            # build + start
+npm run build:release  # fails while any photo on the site lacks recorded consent
+npm run check:release  # release build + release verification
 ```
 
-Open `http://127.0.0.1:4173/`. `npm run dev` rebuilds and starts the local server. The generated `dist/` directory can also be deployed to a static host.
+`npm ci` installs nothing; the dependency graph is intentionally empty.
 
-## Project map
+## What is where
 
-- `build.mjs`: generates the site from the content record, templates and local resources.
-- `content/portfolio.json`: editable structured portfolio source.
-- `src/site.css` and `src/site.js`: responsive site design and browser behavior.
-- `assets/`: self-hosted artwork, fonts, font licenses, GSAP and ScrollTrigger.
-- `dist/`: generated site output, included for immediate review and deployment.
-- `server.mjs` and `verify.mjs`: local preview server and route, asset, accessibility and cinematic-motion checks.
-- `pod/`: evidence, asset, dependency, deployment and handoff notes.
-- `vercel.json`: Vercel static deployment settings.
+```text
+build.mjs              orchestrates the build; writes dist/, sitemap, robots, llms.txt, _headers, _redirects, vercel.json
+build/data.mjs         loads content, builds the Evidence Ledger, consent tracking, canonical origin
+build/components.mjs   print, plate, pack, matrix, pillars, exhibit, doors … (template functions)
+build/layout.mjs       page shell, pre-paint motion-tier script (CSP-hashed), header, FormulaBar, footer
+build/pages/*.mjs      home (hero, seven-beat film, fit grid), services, work, evidence, about, contact, ProposalDesk, insights
+content/portfolio.json the CV-derived record — never edited by the redesign
+content/site.json      editorial layer: service families, pillar assessments, sourced figures
+content/photos.json    photo captions, frame numbers and consent status
+src/css/00–07          fonts, tokens, base, chrome, components, home, pages, motion (concatenated in order)
+src/js/site.js         theme, FormulaBar, doors, tabs, loupe, work board, contact form, film loader
+src/js/film.js         the pinned film: one GSAP timeline, seven beats, rollback on failure
+src/js/develop-gl.js   the WebGL2 "darkroom develop" shader
+api/enquiry.js         POST /api/enquiry — Web-standard handler (Resend + optional Turnstile, or fallback)
+assets/                fonts (+ OFL licences), vendored GSAP/ScrollTrigger, processed media, og.jpg
+tools/                 optional authoring tools: media pipeline, map builder, OG-card capture
+docs/                  DECISIONS.md, CONTENT-REQUIRED.md, DEPLOYMENT.md; docs/v1/ holds the base's records
+```
 
-## Cinematic motion and accessibility
+## Before going live
 
-The homepage film pins during the scroll sequence. One persistent set of 48 fragments moves through six 3D arrangements, scene captions crossfade, the scene rail navigates the sequence, and the hero image has its own camera drift. GSAP and ScrollTrigger are bundled locally. Reduced-motion, small-screen and script-unavailable users receive the static presentation and ordinary page scrolling.
-
-## Editing content
-
-Edit `content/portfolio.json` and the relevant templates, styles or scripts, then run `npm run build` and `npm run check`. `prepare-fonts.mjs` is optional maintenance tooling; it is not needed to install, build, run or deploy the site.
-
-## Environment
-
-No environment variable is required. Optional build-time `SITE_ORIGIN` sets canonical, sitemap and structured-data URLs for a deployment domain. `.env.example` documents the value; there is no dotenv dependency and `.env` is not loaded automatically.
-
-## Deploy
-
-For Vercel, import the repository and use the included configuration: build command `npm run build`, output directory `dist`. For another static host, build and publish `dist/`. Set `SITE_ORIGIN` before the build when the deployed canonical domain differs from the default site URL.
-
-The optional `.openai/hosting.json` is preserved as original hosting metadata; the standalone website does not read or require it. The guarded `document.modelContext` helper is an optional host integration; the visitor-operated enquiry flow works without it.
-
-## Services and limitations
-
-The project has no backend, database, analytics, CRM, email automation, payment or upload service. The enquiry form prepares a message for the visitor to review and hand off; it does not send or store a lead. The original hosted edition may have account-level access restrictions; this export runs independently on local Node or a conventional static host.
-
-See `PORTABILITY.md`, `EXPORT_MANIFEST.md` and `RELEASE-AUDIT.md` for portability details, archive inventory and clean-extraction results.
+Read `docs/CONTENT-REQUIRED.md`. Two items block a release build: consent for four field photographs, and the production domain. Deployment steps are in `docs/DEPLOYMENT.md`.

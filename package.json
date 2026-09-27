@@ -1,13 +1,15 @@
 {
-  "name": "syful-hoque-platform",
-  "version": "1.0.0",
+  "name": "syful-hoque-web",
+  "version": "2.0.0-preview",
   "private": true,
   "type": "module",
   "scripts": {
     "build": "node build.mjs",
+    "build:release": "node build.mjs --release",
     "dev": "node build.mjs && node server.mjs",
     "start": "node server.mjs",
-    "check": "node verify.mjs"
+    "check": "node verify.mjs",
+    "check:release": "node build.mjs --release && node verify.mjs --release"
   },
   "engines": {
     "node": ">=22.9"

@@ -1,0 +1,118 @@
+/* Syful Hoque Evidence System — tokens.css (generated from project/tokens.json by make_tokens_css.py; do not edit by hand) */
+:root {
+  color-scheme: light;
+  --paper: #f4f5f1;
+  --paper-raised: #ffffff;
+  --table: #e7eae4;
+  --grid: #d8ddd7;
+  --line: #7a837d;
+  --ink: #0e1210;
+  --ink-muted: #56605a;
+  --evidence: #1d3fd0;
+  --evidence-tint: #e3e8ff;
+  --on-evidence: #ffffff;
+  --markup: #c8321f;
+  --system: #0b6b47;
+  --highlight: #ffe27a;
+  --proposaldesk: #ff8b42;
+  --on-proposaldesk: #0e1210;
+  --focus: var(--evidence);
+  --link: var(--evidence);
+  --shadow-print: 0 1px 0 rgba(14,18,16,0.10), 0 18px 36px -18px rgba(14,18,16,0.45);
+  --font-display: "Anek Latin Variable", "Anek Latin", "Anek Bangla Variable", "Anek Bangla", "Arial Narrow", Arial, sans-serif;
+  --font-bangla: "Anek Bangla Variable", "Anek Bangla", "Noto Sans Bengali", "Nirmala UI", sans-serif;
+  --font-serif: "Newsreader Variable", Newsreader, "Noto Serif Bengali", Georgia, serif;
+  --font-mono: "Martian Mono Variable", "Martian Mono", ui-monospace, Menlo, Consolas, monospace;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --space-9: 96px;
+  --space-10: 128px;
+  --row: 24px;
+  --radius-0: 0px;
+  --radius-1: 2px;
+  --radius-pill: 999px;
+  --dur-1: 120ms;
+  --dur-2: 200ms;
+  --dur-3: 320ms;
+  --dur-4: 640ms;
+  --dur-5: 900ms;
+  --ease-out: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --ease-develop: cubic-bezier(0.16, 1, 0.3, 1);
+  --page-max: 1440px;
+  --measure: 68ch;
+  --sheet-cols: 12;
+  --film-length: 650svh;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --paper: #0b0f0d;
+    --paper-raised: #131915;
+    --table: #060807;
+    --grid: #26302a;
+    --line: #6e7a72;
+    --ink: #e9eeea;
+    --ink-muted: #9da8a1;
+    --evidence: #8fa6ff;
+    --evidence-tint: #182352;
+    --on-evidence: #0b0f0d;
+    --markup: #ff7b66;
+    --system: #4cc792;
+    --highlight: #5a4a0e;
+    --proposaldesk: #ff9a57;
+    --on-proposaldesk: #0b0f0d;
+    --shadow-print: 0 1px 0 rgba(0,0,0,0.60), 0 18px 36px -18px rgba(0,0,0,0.90);
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --paper: #0b0f0d;
+  --paper-raised: #131915;
+  --table: #060807;
+  --grid: #26302a;
+  --line: #6e7a72;
+  --ink: #e9eeea;
+  --ink-muted: #9da8a1;
+  --evidence: #8fa6ff;
+  --evidence-tint: #182352;
+  --on-evidence: #0b0f0d;
+  --markup: #ff7b66;
+  --system: #4cc792;
+  --highlight: #5a4a0e;
+  --proposaldesk: #ff9a57;
+  --on-proposaldesk: #0b0f0d;
+  --shadow-print: 0 1px 0 rgba(0,0,0,0.60), 0 18px 36px -18px rgba(0,0,0,0.90);
+}
+
+/* Type styles */
+.display-xl { font-family: var(--font-display); font-size: 112px; line-height: 0.9; font-weight: 700; letter-spacing: -0.02em; }
+.display-l { font-family: var(--font-display); font-size: 72px; line-height: 0.95; font-weight: 700; letter-spacing: -0.015em; }
+.heading-l { font-family: var(--font-display); font-size: 44px; line-height: 1.0; font-weight: 650; letter-spacing: -0.01em; }
+.heading-m { font-family: var(--font-display); font-size: 30px; line-height: 1.1; font-weight: 600; }
+.heading-s { font-family: var(--font-display); font-size: 21px; line-height: 1.2; font-weight: 600; }
+.lede { font-family: var(--font-serif); font-size: 24px; line-height: 1.38; font-weight: 400; font-variation-settings: 'opsz' 24; }
+.body { font-family: var(--font-serif); font-size: 18px; line-height: 1.6; font-weight: 400; font-variation-settings: 'opsz' 16; }
+.body-s { font-family: var(--font-serif); font-size: 16px; line-height: 1.5; font-weight: 400; font-variation-settings: 'opsz' 14; }
+.quote { font-family: var(--font-serif); font-size: 28px; line-height: 1.3; font-weight: 400; font-style: italic; font-variation-settings: 'opsz' 28; }
+.ui { font-family: var(--font-display); font-size: 15px; line-height: 1.4; font-weight: 500; }
+.label { font-family: var(--font-display); font-size: 12px; line-height: 16px; font-weight: 650; letter-spacing: 0.08em; }
+.figure-xl { font-family: var(--font-mono); font-size: 88px; line-height: 0.95; font-weight: 500; letter-spacing: -0.03em; }
+.figure { font-family: var(--font-mono); font-size: 22px; line-height: 1.2; font-weight: 500; }
+.cell { font-family: var(--font-mono); font-size: 12px; line-height: 16px; font-weight: 400; }
+.caption { font-family: var(--font-mono); font-size: 11px; line-height: 15px; font-weight: 400; letter-spacing: 0.02em; }
+.bangla-display { font-family: var(--font-bangla); font-size: 64px; line-height: 1.1; font-weight: 700; }
+.bangla-body { font-family: var(--font-bangla); font-size: 18px; line-height: 1.75; font-weight: 400; }
+
+/* Typographic rules that belong with the tokens (also in base.css of the site) */
+.display-xl { font-stretch: 78%; text-wrap: balance; }
+.display-l { font-stretch: 82%; text-wrap: balance; }
+.heading-l, .heading-m { text-wrap: balance; }
+.label { text-transform: uppercase; }
+.figure-xl, .figure, .cell, .caption { font-variant-numeric: tabular-nums; }

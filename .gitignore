@@ -1,0 +1,10 @@
+node_modules/
+*.tar.gz
+*.log
+.env
+!\.env.example
+website-source-export/
+website-source-export-qa/
+/assets.7z
+/website-source-export*.zip
+/_site-package-stage-*/

@@ -1,0 +1,14 @@
+# Decision record
+
+Version 1.0.0 · 16 September 2026
+
+1. **Production architecture.** Use pre-rendered static HTML, CSS and small JavaScript modules. A server-rendered framework and database would add no necessary capability to this portfolio. All routes remain useful without JavaScript.
+2. **3D revision.** Implement the lightweight CSS 3D option from the supplied cinematic brief, using one persistent 48-node model. See Strategy Lock §5. Static mode is the base state; JavaScript explicitly enables animation only on suitable screens.
+3. **Original art.** No verified portrait was supplied. Use an original conceptual sculpture explaining fragment-to-structure, with no fabricated likeness or client imagery. Preserve source and compressed WebP in the pod assets.
+4. **Commercial scope.** Keep ProposalDesk available for direct enquiry. The Costing Clinic is a proposed pilot; toolkit licensing is in development. Any future toolkit licence must have confirmed IP rights. No donor-owned outputs are sold. Fees and final scope are agreed directly.
+5. **Evidence treatment.** Preserve the original JSON, with safer public wording in the renderer. Remove first-of-kind and single-handed achievement claims. Use records of responsibilities rather than invented impact. Omit disputed exact dates and historical education years. Budget figures are described only as project scope, verified against the supplied September CV extraction.
+6. **Enquiry delivery.** A brief is generated locally, visibly reviewed, and explicitly transferred by the visitor to their email or WhatsApp app. No message is sent by the website. Form controls begin inert and submission disabled until the handler is ready; no-script users get direct email.
+7. **Offer commitments.** ProposalDesk’s 48-hour core turnaround, six-weekly operating cap and 12-working-hour reply are supplied operational policies recorded in the original strategy, conditional on agreed scope and inputs. They are not empirical performance statistics.
+8. **Insights.** Author three introductory method guides as current website resources. They are explicitly separated from the historical professional assignment record and are not represented as peer-reviewed publications.
+9. **Privacy and assets.** Self-host fonts; no analytics, cookies, third-party image embeds or lead database. Keep raw CV/DOCX/XLSX attachments out of public assets and the deployment archive.
+10. **Validation boundary.** Run static route/asset/structure/security checks and an independent read-only review. No browser screenshots, DOM inspection or interaction QA were performed because the Sites skill permits those only when explicitly requested. Actual device frame rate and visual accessibility require future browser QA. Optional WebMCP preparation is feature-detected; no supported live WebMCP validation context was available, so it is not claimed verified.

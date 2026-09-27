@@ -1,0 +1,947 @@
+{
+  "_meta": {
+    "source": "Mohammad Syful Hoque CV WB — Costing and Financing Expert (FORM TECH-6), signed 09/09/2026",
+    "rule": "Every factual field below is verbatim or near-verbatim from the CV. Nothing is inferred. Narrative fields not present in the CV are marked [CONTENT REQUIRED].",
+    "podVersion": "0.1.0"
+  },
+  "person": {
+    "name": "Mohammad Syful Hoque",
+    "shortName": "Syful Hoque",
+    "positioning": "Economist · Policy & Systems Strategist · Product Builder",
+    "proposition": "Turning evidence into decisions—and decisions into systems.",
+    "supporting": "I work across economics, policy, evidence, institutions and technology to turn complex problems into actionable decisions and working systems.",
+    "cvSummary": "Economist and Costing & Financing Specialist with 20 years of professional experience in program costing, economic and financial analysis, feasibility assessment, financial modelling, financing strategy, sensitivity analysis, M&E and scale-up planning for World Bank, ADB, IFC, government and other development-partner programs.",
+    "location": "Dhaka, Bangladesh",
+    "citizenship": "Bangladeshi",
+    "email": "israhat@gmail.com",
+    "emailAlt": "mdsyfulhoque@gmail.com",
+    "whatsapp": "8801914011329",
+    "phoneDisplay": "+880 1914 011329",
+    "linkedin": "[CONTENT REQUIRED]",
+    "portrait": "[ASSET REQUIRED — editorial portrait, 4:5, shoulders-up, unobstructed face]",
+    "education": [
+      {
+        "degree": "Master of Science (MSc) in Economics",
+        "institution": "University of Surrey, UK",
+        "year": "2012"
+      },
+      {
+        "degree": "Master of Social Sciences (MSS) in Economics",
+        "institution": "University of Dhaka, Bangladesh",
+        "year": "2006"
+      },
+      {
+        "degree": "Bachelor of Social Sciences (BSS) in Economics",
+        "institution": "University of Dhaka",
+        "year": "2005"
+      }
+    ],
+    "certifications": [
+      "Human Subjects Research — Social-Behavioral-Educational Basic, CITI Program",
+      "Big Data Analytics and Artificial Intelligence for Impact — GSMA, accredited by UK Telecommunications Academy (UKTA)",
+      "Specialization: The Materiality of ESG Factors — University of Pennsylvania (Coursera, Dec 2023)",
+      "ESG Risks and Opportunities — University of Pennsylvania (Coursera, Nov 2023)",
+      "ESG Impact: Investor Perspective — University of Pennsylvania (Coursera, Dec 2023)",
+      "ESG and Climate Change — University of Pennsylvania (Coursera, Dec 2023)",
+      "ESG and Social Activism — University of Pennsylvania (Coursera, Dec 2023)"
+    ],
+    "memberships": [
+      "Economics Study Centre, Dept. of Economics, University of Dhaka; Dhaka University Alumni Association",
+      "Indian Society of Labour Economics (ISLE), JNU, India",
+      "Bangladesh Economic Forum (BEF) & Bangladesh Economic Association (BEA)",
+      "South Asian Regional Network (SARNET)",
+      "Surrey Energy Economics Centre (SEEC), University of Surrey, UK (2011–12)",
+      "Centre for International Macroeconomic Studies (CIMS), University of Surrey, UK (2011–12)"
+    ],
+    "languages": [
+      {
+        "name": "English",
+        "reading": "Excellent",
+        "speaking": "Excellent",
+        "writing": "Excellent"
+      },
+      {
+        "name": "Bengali",
+        "reading": "Mother tongue",
+        "speaking": "Mother tongue",
+        "writing": "Mother tongue"
+      }
+    ]
+  },
+  "institutions": {
+    "development": [
+      "Asian Development Bank",
+      "The World Bank",
+      "IFC — World Bank Group",
+      "European Commission",
+      "Embassy of Sweden in Bangladesh",
+      "UNCTAD",
+      "World Trade Organization",
+      "JICA",
+      "Bill and Melinda Gates Foundation",
+      "IFAD",
+      "DFID / Business Innovation Facility",
+      "Global Partnership for Education"
+    ],
+    "government": [
+      "Planning Commission",
+      "Ministry of Finance",
+      "Ministry of Primary and Mass Education",
+      "Ministry of Education",
+      "TMED",
+      "DPE",
+      "DME",
+      "DSHE",
+      "DTE",
+      "BTEB",
+      "NCTB",
+      "BEZA",
+      "BIFFL",
+      "BMDF",
+      "Bangladesh Bank",
+      "Bangladesh Bureau of Statistics",
+      "Dhaka South City Corporation",
+      "Payra Port Authority",
+      "Bangladesh Army"
+    ],
+    "academicAndFirms": [
+      "Centre for Policy Dialogue",
+      "Tufts University",
+      "Columbia University",
+      "Johns Hopkins University",
+      "PwC UK",
+      "ICF International",
+      "Japan Development Institute",
+      "CLASP International",
+      "CUTS International",
+      "KIET",
+      "JETRO",
+      "Sumitomo Corporation"
+    ]
+  },
+  "practices": [
+    {
+      "id": "evidence-economics",
+      "number": "01",
+      "title": "Evidence & Economics",
+      "accent": "cobalt",
+      "lead": "Economic and financial appraisal that decides whether an investment is worth making.",
+      "capabilities": [
+        "Feasibility studies and project preparation",
+        "Economic and financial cost-benefit analysis",
+        "ENPV / FNPV, EIRR / FIRR, benefit-cost ratios, WACC benchmarking",
+        "Capital and recurrent cost estimation",
+        "Scenario, uncertainty, risk and switching-value sensitivity analysis",
+        "Impact evaluation and RCT design",
+        "Survey design, implementation and data analysis"
+      ],
+      "destination": "Research, advisory and specialist appraisal assignments"
+    },
+    {
+      "id": "policy-institutions",
+      "number": "02",
+      "title": "Policy & Institutions",
+      "accent": "forest",
+      "lead": "Reading the institutional system that decides whether a good decision can actually be executed.",
+      "capabilities": [
+        "Policy and regulatory analysis",
+        "Institutional and stakeholder analysis",
+        "Public-sector capacity and governance assessment",
+        "Trade, investment and graduation policy",
+        "Green transition and climate policy frameworks",
+        "Multi-agency consultation and dialogue design"
+      ],
+      "destination": "Policy and technical-assistance engagements"
+    },
+    {
+      "id": "strategy-delivery",
+      "number": "03",
+      "title": "Strategy & Delivery",
+      "accent": "amber",
+      "lead": "Turning an appraised decision into a costed, phased, financeable implementation plan.",
+      "capabilities": [
+        "Costing toolkits and budget notes",
+        "Financing structures and financing-gap assessment",
+        "Affordability and fiscal-sustainability analysis",
+        "Phased rollout and scale-up planning",
+        "M&E, logframe, DMF and results-framework design",
+        "Procurement and implementation planning inputs"
+      ],
+      "destination": "Senior advisory and project engagements"
+    },
+    {
+      "id": "digital-ventures",
+      "number": "04",
+      "title": "Digital Systems & Ventures",
+      "accent": "ink",
+      "lead": "Building the systems and products that carry a method further than one assignment can.",
+      "capabilities": [
+        "Costing and appraisal of digital and AI-enabled programs",
+        "Technology-adoption research at firm level",
+        "Digital learning, EMIS and MIS system assessment",
+        "Productized professional services",
+        "Decision tools and workflow products"
+      ],
+      "destination": "Product partnerships, ventures and software"
+    }
+  ],
+  "projects": [
+    {
+      "id": "adb-ews-facility",
+      "featured": true,
+      "title": "Increasing Investments in Early Warning Systems to Strengthen Climate and Disaster Resilience",
+      "reference": "ADB TA 10103-REG (sovereign regional TA 57055-001)",
+      "client": "Asian Development Bank",
+      "role": "Economic and Financial Analysis Specialist (International), Intermittent",
+      "year": "September 2025 – December 2026",
+      "status": "Current",
+      "location": "Regional — Bangladesh, Cambodia, Kazakhstan, Kyrgyz Republic, Lao PDR, Maldives, Mongolia, Nepal, Tajikistan, Uzbekistan",
+      "practice": [
+        "evidence-economics",
+        "strategy-delivery"
+      ],
+      "features": "Design and initiation of a multi-hazard EWS facility to help DMCs identify, prepare, and implement scalable EWS investments. The TA will contribute to strengthening of early warning systems (EWS) and increasing investments of ADB on EWS in support of its developing member countries. The TA's expected outcome is a new facility on early warning system initiated.",
+      "activities": [
+        "Run rapid diagnostics of hydromet/hazard/alerting gaps; conduct stakeholder mapping and country consultations.",
+        "Draft the facility blueprint (governance, financing instruments, eligibility, safeguards interface).",
+        "Prepare investment concept notes and screening templates; prioritize pilot concepts for Bangladesh and Cambodia.",
+        "Build costing toolkits and CBA models; support budget notes and procurement plans.",
+        "Author SOPs and technical specifications for multi-channel alerting (cell broadcast, SMS, IVR, FM, community).",
+        "Design an M&E logframe aligned to Sendai and SDG 13; plan integration with national systems.",
+        "Develop financial evaluation packages, benchmark WACC, and assess O&M sustainability over asset life.",
+        "Draft Economic & Financial Analysis chapters for three country CIEWS investment frameworks.",
+        "Contribute donor-ready proposal materials (economic justification, financial projections, risks/mitigation, implementation and financing plans)."
+      ],
+      "significance": "[CONTENT REQUIRED]"
+    },
+    {
+      "id": "nsep-madrasah",
+      "featured": true,
+      "title": "NextGen Secondary Education Program — Secondary and Higher Secondary Madrasah Education",
+      "reference": "Feasibility Study, ADB TA-6950: BAN",
+      "client": "Asian Development Bank",
+      "role": "Economist and Financial Analyst",
+      "year": "January 2025 – continuing",
+      "status": "Current",
+      "location": "Bangladesh",
+      "practice": [
+        "evidence-economics",
+        "policy-institutions",
+        "digital-ventures"
+      ],
+      "features": "Evaluate technical, financial, and institutional feasibility of a large-scale madrasah modernization effort across Bangladesh. Focus on Dakhil and Alim madrasahs, particularly those outside the coverage of other recent reform projects. Develop strategies for quality improvement, digital transformation, inclusiveness, and alignment with Vision 2041 and the 8th Five-Year Plan.",
+      "activities": [
+        "Teaching-Learning Environment Audit: comprehensive assessments of madrasah infrastructure, classroom dynamics, and gender-sensitive learning conditions.",
+        "TVET Integration: proposed the rollout of the Dakhil Vocational Program in 495 selected madrasahs.",
+        "Digital Infrastructure Planning: developed design and costing plans for ICT labs, science/social labs, and solar-powered learning environments.",
+        "Curriculum and Pedagogy Reform: reviewed religious and general subject curriculum alignment with the National Curriculum Framework and designed e-content strategies.",
+        "Climate and Environmental Resilience: assessed classroom vulnerability to climate shocks and recommended retrofitting and green energy systems.",
+        "Cost–Benefit and Financial Viability Analysis: supported ENPV and IRR modeling for madrasah investments including infrastructure, teacher training, and CPD.",
+        "Capacity and Institutional Analysis: evaluated DME, BMTTI, and madrasah governance frameworks including HRMIS readiness, EMIS gaps, and leadership training needs.",
+        "Stakeholder Engagement: facilitated consultations across TMED, DME, DSHE, NCTB, madrasah leaders, and community groups."
+      ],
+      "significance": "[CONTENT REQUIRED]"
+    },
+    {
+      "id": "nsep-tvet",
+      "featured": true,
+      "title": "NextGen Secondary Education Program — Technical and Vocational Education and Training",
+      "reference": "Feasibility Study, ADB TA-6950: BAN",
+      "client": "Asian Development Bank",
+      "role": "Economist and Financial Analyst",
+      "year": "January 2024 – December 2024",
+      "status": "Delivered",
+      "location": "Bangladesh",
+      "scale": "USD 44.108 million estimated project budget (joint ADB & GoB financing)",
+      "practice": [
+        "evidence-economics",
+        "policy-institutions"
+      ],
+      "features": "Evaluate the feasibility of a five-year, nationwide TVET transformation initiative aligned with Bangladesh's Vision 2041 and the 8th Five-Year Plan. Conduct in-depth diagnostics and stakeholder consultations for secondary and higher-secondary level TVET institutions, especially non-MPO and independent institutes.",
+      "activities": [
+        "Market & Demand Analysis: assessed labor market trends, skills mismatch, and future workforce needs amid the 4th Industrial Revolution.",
+        "Policy & Document Review: analyzed TVET-related reports, the ASPR 2023, and earlier reform projects (STEP, SEIP, ASSET).",
+        "SWOT & Gap Assessments: identified institutional weaknesses and prioritized interventions across curriculum, digital content, gender inclusion, and special needs access.",
+        "Environmental & Climate Risk Analysis: evaluated TVET infrastructure vulnerability and resilience under climate adaptation lenses.",
+        "Cost–Benefit Analysis: supported modeling of financial and economic returns using national shadow pricing parameters.",
+        "Capacity Mapping: evaluated DTE's and BTEB's institutional and legal capacities for scalable implementation.",
+        "Stakeholder Consultations: facilitated interviews, focus groups, and inter-agency dialogues with MoE, DTE, BTEB, NCTB, and private institutes."
+      ],
+      "outputs": "Authored sections of a Planning Commission-compliant Feasibility Report for the proposed USD 44M program. Supported the design of implementation frameworks including TVET curriculum reforms, digital learning infrastructure upgrades, institute–industry collaboration models, and female participation enhancement strategies.",
+      "significance": "[CONTENT REQUIRED]"
+    },
+    {
+      "id": "nextgen-primary-gpe",
+      "featured": true,
+      "title": "NextGen Primary Education Projects in Bangladesh",
+      "reference": "Feasibility Study under the Global Partnership for Education Program Development Grant, with MoPME and ADB",
+      "client": "Asian Development Bank",
+      "role": "Economist and Financial Analyst",
+      "year": "June 2022 – October 2023",
+      "status": "Delivered",
+      "location": "Bangladesh",
+      "practice": [
+        "evidence-economics",
+        "digital-ventures"
+      ],
+      "features": "Conducted the feasibility study for a national-level project aiming to scale blended learning and drive digital transformation across pre-primary and primary education in Bangladesh.",
+      "activities": [
+        "Evaluated the technical feasibility of digital and AI-powered learning and assessment interventions.",
+        "Conducted market and institutional analysis to support digital content creation, LMS use, and real-time assessment.",
+        "Analyzed risks related to climate, disaster resilience, and continuity of learning.",
+        "Developed financial and economic cost-benefit models aligned with the Planning Division and ADB guidelines.",
+        "Engaged with MOPME, DPE, and cross-sector stakeholders for a future-proof, tech-enabled learning system."
+      ],
+      "significance": "[CONTENT REQUIRED]"
+    },
+    {
+      "id": "nsep-56088",
+      "featured": true,
+      "title": "New Secondary and Madrasah Education Projects in Bangladesh",
+      "reference": "ADB TA-6950-BAN: Supporting Education Sector Projects (56088-001)",
+      "client": "Asian Development Bank",
+      "role": "Economist and Financial Analyst",
+      "year": "January 2022 – December 2023",
+      "status": "Delivered",
+      "location": "Bangladesh",
+      "practice": [
+        "evidence-economics"
+      ],
+      "features": "Pioneered the first-of-its-kind economic and financial feasibility study in the education sector in Bangladesh, assessing the viability of the proposed New Secondary and Madrasah Education Projects. Objectives included reviewing government policies, assessing consultation proceedings, examining existing EdTech interventions, market and demand analysis, technical feasibility assessment, environmental and disaster risk analysis, financial cost-benefit analysis, and institutional, legal and capacity assessment.",
+      "activities": [
+        "Performed in-depth market analysis, SWOT assessments, and economic and financial cost-benefit analyses — estimating economic and financial net present value, cost-benefit ratio, and internal rate of return.",
+        "Conducted risk (uncertainty) and sensitivity analysis by varying key assumptions across scenarios.",
+        "Prepared cost estimates reviewing proposed interventions, output plan, and implementation timeline.",
+        "Prepared the full analysis in Excel and narratives as part of feasibility study reports in accordance with Planning Commission requirements.",
+        "Provided inputs for technical/technological and engineering analysis including alternative/options analysis, and human resources and administrative support analysis."
+      ],
+      "significance": "[CONTENT REQUIRED]"
+    },
+    {
+      "id": "green-transition-rmg",
+      "featured": true,
+      "title": "Securing Green Transition of the Textile and Readymade Garments Sector in Bangladesh",
+      "reference": "Research and Advocacy Program",
+      "client": "Embassy of Sweden in Bangladesh and the Centre for Policy Dialogue",
+      "role": "Visiting Research Fellow (Economist) — led the research and implementation team",
+      "year": "January 2022 – June 2023",
+      "status": "Delivered",
+      "location": "Bangladesh",
+      "scale": "Survey of 400 randomly selected firms, 120 key informant interviews, 8 focus group discussions",
+      "practice": [
+        "policy-institutions",
+        "evidence-economics"
+      ],
+      "features": "To contribute towards enhancing environmentally sustainable and climate-neutral growth in Bangladesh with productive employment opportunities for women and youth. Developed policy and action frameworks to enable sustainable business models for green investment, and recommended reforms for strengthening institutional governance, rules and regulations in the textile industry.",
+      "activities": [
+        "Identified critical barriers and drivers of the Green Transition within the industry, and analyzed the landscape of policies, regulations, and green financing in Bangladesh.",
+        "Assessed available funds, incentives, and challenges in accessing finance for renewable energy integration.",
+        "Examined the knowledge, interest, and capacity of firms in adopting green practices, and stakeholder dynamics across the Industrial Policy and global value chain.",
+        "Orchestrated a research-based policy study from inception to completion — proposal, research methodology, questionnaires, and data analysis.",
+        "Conducted stakeholder consultations with government agencies, banks, investors, and factory owners to identify financing gaps.",
+        "Prepared policy briefs and recommendations including the introduction of a Carbon (Green) Tax and incentives for renewable energy investments.",
+        "Led the survey \"Barriers to Green Transition\" — 400 firms, 120 KIIs, 8 FGDs."
+      ],
+      "significance": "[CONTENT REQUIRED]"
+    },
+    {
+      "id": "payra-port",
+      "featured": true,
+      "title": "Technical Advice for Economic and Financial Analysis to Payra Seaport Authority",
+      "reference": "Under Detailed Techno-Economic Feasibility Study and Conceptual Port Master Planning",
+      "client": "Payra Seaport Authority, Government of Bangladesh",
+      "role": "Economic Advisor",
+      "year": "April 2018 – December 2018",
+      "status": "Delivered",
+      "location": "Bangladesh",
+      "practice": [
+        "evidence-economics",
+        "policy-institutions"
+      ],
+      "features": "Developed institutional and financial governance models with PPP frameworks, cost recovery strategies, and sustainability mechanisms.",
+      "activities": [
+        "Supported the management team of Payra Port Authority, providing technical advice to assess the economic prospects of Payra Sea Port.",
+        "Facilitated measures to incorporate accurate economic and financial feasibility analysis into the special economic and financial report produced by third-party consultants.",
+        "Project cost-benefit and economic and financial analysis.",
+        "Developed a 15-year model showing income, expenditure, capital expenditure, annual P&L including EBIT, EBITDA and pre-tax profit, annual balance sheet and project IRR."
+      ],
+      "significance": "[CONTENT REQUIRED]"
+    },
+    {
+      "id": "jolshiri",
+      "featured": true,
+      "title": "Jolshiri Aqua Green City — Economic, Social, Financial and Market Feasibility Study",
+      "reference": "Army Officers Housing Scheme town development project",
+      "client": "Bangladesh Army & ZTENCO",
+      "role": "Team Leader",
+      "year": "May 2019 – June 2020",
+      "status": "Delivered",
+      "location": "Bangladesh",
+      "scale": "USD 1,414 million capital investment",
+      "practice": [
+        "evidence-economics",
+        "strategy-delivery"
+      ],
+      "features": "The overall objective of this assignment is to assess economic, social, and financial feasibility and determine market strategy.",
+      "activities": [
+        "Led delivery and implementation; designed proposal, study and budget; conducted research, survey and evaluation teams; coordinated with stakeholders and delivered the report.",
+        "Provided a 10-year projection, business strategies, and marketing plan based on economic and social cost-benefit analysis, financial feasibility analysis and market study.",
+        "Prepared cost schedule estimation of capital requirement; formulation of yearly expenditure given current expenditure and liabilities analysis.",
+        "Working capital estimation and sensitivity analysis.",
+        "Plot/item-wise market segmentation study; cost versus benefit pricing across all categories.",
+        "Financial investment plan, funding opportunity, indebtedness and creditworthiness of borrowing company.",
+        "Equity analysis, internal rate of return analysis, estimation of payback period, forecast cash flow."
+      ],
+      "significance": "[CONTENT REQUIRED]"
+    },
+    {
+      "id": "fat-survey",
+      "featured": true,
+      "title": "Bangladesh 4: Gearing up the Future of Manufacturing",
+      "reference": "Firm-Level Adoption of Technology (FAT) Survey 2019 — policy report for 8 selected manufacturing sectors",
+      "client": "The World Bank",
+      "role": "ST Consultant",
+      "year": "February 2019 – December 2020",
+      "status": "Delivered",
+      "location": "Bangladesh",
+      "practice": [
+        "digital-ventures",
+        "evidence-economics"
+      ],
+      "features": "The Firm-level Adoption of Technology Survey is designed to identify the level of technology adoption by Bangladeshi firms, identify key barriers to improving firm productivity and product quality, and identify policy reforms to address those barriers. Related publications: \"Gearing Up for the Future of Manufacturing in Bangladesh\" and \"Bridging the Technological Divide: Technology Adoption by Firms in Developing Countries\".",
+      "activities": [
+        "Supported the Task Team Leader in research, design, implementation and policy advocacy of the large technology adoption survey in Bangladesh.",
+        "Single-handedly ran the entire Bangladesh project from questionnaire design to survey implementation, data analysis and report writing.",
+        "Provided training to firms for survey implementation and guided survey teams for questionnaire programming, administration, monitoring and data-quality control.",
+        "Organized high-level dissemination seminars and collaborated with lead economists from the World Bank."
+      ],
+      "significance": "[CONTENT REQUIRED]"
+    },
+    {
+      "id": "rct-stitching-motors",
+      "featured": true,
+      "title": "How Do Managers' Beliefs about New Technologies Evolve? Informational Interventions and the Adoption of Energy-Efficient Stitching Motors in Bangladesh",
+      "reference": "RCT study, Textile & Leather Sector",
+      "client": "Office of the Chief Economist for South Asia (SARCE), The World Bank, with Johns Hopkins University and Columbia University",
+      "role": "ST Consultant",
+      "year": "February 2019 – June 2022",
+      "status": "Delivered",
+      "location": "Bangladesh",
+      "practice": [
+        "evidence-economics"
+      ],
+      "features": "Contributed to green competitiveness and sustainable production in the leather and textile sectors, aligning with EU Green Deal and SDG 12 priorities for energy-efficient industrial operations.",
+      "activities": [
+        "Assisted research investigators in research design, and piloting and implementing of interventions.",
+        "Coordinated implementation, data collection, and field operations and conducted data analysis.",
+        "Collaborated with professors from Columbia University and Johns Hopkins University, and lead economists from the World Bank."
+      ],
+      "significance": "[CONTENT REQUIRED]"
+    },
+    {
+      "id": "ec-ldc-graduation",
+      "featured": true,
+      "title": "Bangladesh's LDC Graduation: Mitigation Actions and Trade, Business, Financing and Market Opportunities for EU Engagement",
+      "reference": "EC FWC SIEA Lot 2 — Infrastructures, Sustainable Growth & Jobs",
+      "client": "European Commission & TIEG",
+      "role": "Consultant, Economist & Deputy Team Leader",
+      "year": "January 2020 – May 2021",
+      "status": "Delivered",
+      "location": "Bangladesh",
+      "practice": [
+        "policy-institutions",
+        "strategy-delivery"
+      ],
+      "features": "To enhance the role of the EU and its Member States in contributing to a smooth and more inclusive LDC graduation: risk mitigation actions, trade, business, financing and market opportunities.",
+      "activities": [
+        "Reviewed and identified gaps in existing analyses and advised on the need for further diagnostic studies — productive capacity, market analysis, trade integration, investment and financing options, production transformation, cost-benefit analysis, vulnerability profile.",
+        "Identified possible key areas of intervention for the EU to address the impact of LDC graduation, potential loss of international support measures, and opportunities for investment and financing.",
+        "Acted as focal point coordinating with the EC Bangladesh delegation, country embassies, the Prime Minister's Office, ministries, Planning Commission, Ministry of Finance, Ministry of Commerce, national trade bodies and industry associations."
+      ],
+      "significance": "[CONTENT REQUIRED]"
+    },
+    {
+      "id": "esmap-astae",
+      "featured": true,
+      "title": "Evaluation of the Energy Sector Management Assistance Program (ESMAP) and Asia Sustainable Alternative Energy Program (ASTAE)",
+      "reference": "World Bank Project ID P150086",
+      "client": "The World Bank & ICF International, UK",
+      "role": "External Evaluator",
+      "year": "August 2015 – June 2016",
+      "status": "Delivered",
+      "location": "Bangladesh & Nepal",
+      "practice": [
+        "evidence-economics",
+        "strategy-delivery"
+      ],
+      "features": "ESMAP and ASTAE share the aim of assisting low- and middle-income countries to achieve sustainable development through clean-energy solutions — including hydroelectric, biomass, wind, geothermal, and solar energy — that promote poverty reduction and economic growth while protecting the environment.",
+      "activities": [
+        "Conducted a comprehensive financial and economic evaluation of completed renewable energy projects supported by ESMAP and ASTAE.",
+        "Evaluated actual financial performance by analyzing CAPEX, OPEX, return on investment, and levelized cost of energy against initial projections.",
+        "Conducted cost-benefit analysis to determine whether projects achieved their intended financial and economic objectives.",
+        "Compared actual financial and economic outcomes with the initial feasibility studies to identify gaps and lessons learned."
+      ],
+      "significance": "[CONTENT REQUIRED]"
+    },
+    {
+      "id": "bmdf-green-municipal",
+      "title": "Green Municipal Infrastructure Development — Operation Support & Capacity Building of BMDF",
+      "reference": "Municipal Governance & Services Project (MGSP)",
+      "client": "The World Bank and Ministry of Finance, Government of Bangladesh",
+      "role": "Economic, Business, Financial & Market Plan Development Specialist",
+      "year": "September 2019 – June 2020",
+      "status": "Delivered",
+      "location": "Bangladesh",
+      "practice": [
+        "strategy-delivery",
+        "policy-institutions"
+      ],
+      "features": "Supported the design and implementation of environmentally responsible municipal infrastructure aligned with Bangladesh's development priorities and the SDGs, focusing on governance, institutional readiness, and financially sustainable business models.",
+      "activities": [
+        "Designed and promoted bankable, environment-friendly municipal infrastructure projects incorporating solar-powered public facilities, energy-efficient street lighting and waste-to-energy systems.",
+        "Integrated spatial data using GIS for planning in pourashavas and developed infrastructure investment pipelines informed by geospatial analysis.",
+        "Developed a 10-year financial roadmap interlinked with national development plans and SDG targets, outlining funding mechanisms, investment strategies and revenue-generation models.",
+        "Conducted economic and financial cost-benefit analyses for proposed renewable energy initiatives, assessing viability, payback periods and socio-economic impacts.",
+        "Conducted financial risk assessments and sensitivity analyses of policy and economic fluctuations."
+      ],
+      "significance": "[CONTENT REQUIRED]"
+    },
+    {
+      "id": "cem-bangladesh-india",
+      "title": "Country Economic Memorandums for Bangladesh and India",
+      "client": "The World Bank (ESAMU-EFI-SAR-MTI Macro-Fiscal)",
+      "role": "ST Consultant",
+      "year": "June 2021 – April 2022",
+      "status": "Delivered",
+      "location": "Bangladesh, India",
+      "practice": [
+        "policy-institutions"
+      ],
+      "features": "Assess opportunities for and constraints to trade and private sector-led growth; provide an integrated and long-run perspective of development priorities and identify reform areas that can foster inclusive growth, including recent developments in the context of the Covid-19 pandemic and LDC graduation.",
+      "activities": [
+        "Conducted thematic and sectoral research.",
+        "Produced reports for the preparation of Country Economic Memorandums for Bangladesh and India.",
+        "Conducted key informant interviews."
+      ],
+      "significance": "[CONTENT REQUIRED]"
+    },
+    {
+      "id": "green-trade-reform",
+      "title": "Transformative Green Trade, Investment and Transition Policy Reform Design and Implementation",
+      "client": "The World Bank",
+      "role": "ST Consultant",
+      "year": "June 2021 – April 2022",
+      "status": "Delivered",
+      "location": "Bangladesh, India, Vietnam",
+      "practice": [
+        "policy-institutions"
+      ],
+      "features": "Scoping study and stakeholder mapping on transformative green trade, investment and transition policy reform design and implementation for Bangladesh, India and Vietnam.",
+      "activities": [
+        "Contributed to the report \"Act now, there is no time to wait for greening trade: the case of Bangladesh Trade and Climate Report.\"",
+        "Prepared \"Status of Current Policies and Strategies, and Policy Gaps in Trade, Investment and Finance for EGS in Bangladesh.\"",
+        "Prepared \"Institutional Mapping of Trade, Investment and Financing in Environmental Goods and Services in Bangladesh.\""
+      ],
+      "significance": "[CONTENT REQUIRED]"
+    },
+    {
+      "id": "unctad-pcga",
+      "title": "Productive Capacities Gap Assessment for Bangladesh",
+      "client": "UNCTAD and the Centre for Policy Dialogue",
+      "role": "Visiting Research Fellow (Economist)",
+      "year": "December 2021 – January 2022",
+      "status": "Delivered",
+      "location": "Bangladesh",
+      "practice": [
+        "policy-institutions",
+        "evidence-economics"
+      ],
+      "features": "UNCTAD's analytical work on LDC graduation policies and trade transition frameworks, directly relevant to Bangladesh's post-graduation trade relationship with the EU.",
+      "activities": [
+        "Conducted the Productive Capacities Gap Assessment and prepared analytical documents forming the basis for Bangladesh's graduation with momentum strategy.",
+        "Analyzed productive capacities, PCI scores, performance, and critical binding constraints on fostering productive capacities and structural economic transformation, including institutional limitations and policy implementation gaps.",
+        "Examined comparative advantages and made practical, country-specific recommendations on policies to build productive and policy-making capacities."
+      ],
+      "significance": "[CONTENT REQUIRED]"
+    },
+    {
+      "id": "wto-services-trade",
+      "title": "Global Services Trade Policy Database and Index",
+      "client": "The World Bank and a joint team of the World Trade Organization",
+      "role": "ST Consultant",
+      "year": "March 2020 – June 2022",
+      "status": "Delivered",
+      "location": "Bangladesh",
+      "practice": [
+        "policy-institutions",
+        "digital-ventures"
+      ],
+      "features": "Prepare the Global Services Trade Policy Database and Index for Bangladesh.",
+      "activities": [
+        "Undertook policy and research activities to develop the Global Services Trade Policy Database and Index for Bangladesh.",
+        "Coordinated and gathered information on applied policies and regulations across sectors and sub-sectors through desk research, interviews and analysis for the joint WTO–World Bank team."
+      ],
+      "significance": "[CONTENT REQUIRED]"
+    },
+    {
+      "id": "dscc-vision-2050",
+      "title": "Vision Document 2050 — Dhaka South City Corporation Modernization",
+      "client": "Dhaka South City Corporation",
+      "role": "Municipal Governance & Finance Expert (ST Consultant)",
+      "year": "February 2020 – September 2020",
+      "status": "Delivered",
+      "location": "Bangladesh",
+      "practice": [
+        "policy-institutions",
+        "strategy-delivery"
+      ],
+      "features": "Preparation of the Dhaka South City Modernization Study (Mayor's Vision 2050: Modern Dhaka).",
+      "activities": [
+        "Developed vision document preparatory studies for a smart, resilient and inclusive modern Dhaka — city infrastructure, services and governance planning.",
+        "Prepared the city financing and investment plan, local institutions and city governance reform plan for effective service delivery.",
+        "Assessed economic prospects and developed business and revenue models for the operation and execution of the modern city plan."
+      ],
+      "significance": "[CONTENT REQUIRED]"
+    },
+    {
+      "id": "halow",
+      "title": "HALOW+ — Health Access and Linkage Opportunities for Workers",
+      "client": "DFID-funded Business Innovation Facility, PwC UK, Tufts University, GSK, Marks & Spencer, CARE International",
+      "role": "M&E Adviser and Impact Evaluation Expert for the entire program partnership",
+      "year": "April 2018 – April 2020",
+      "status": "Delivered",
+      "location": "Bangladesh",
+      "practice": [
+        "evidence-economics",
+        "strategy-delivery"
+      ],
+      "features": "Multi-partner program to develop a health service market, improve working and health conditions of RMG workers, and increase factory productivity and profitability.",
+      "activities": [
+        "Economic, financial and cost-benefit analysis across the partnership.",
+        "Curated comprehensive health and productivity databases and introduced quantitative business models that informed community welfare investment decisions.",
+        "Implemented an RCT study, collected and analyzed data, and wrote reports.",
+        "Managed the M&E team, monitored project activities and data quality control.",
+        "Collected factory data for Business Value Analysis for PwC."
+      ],
+      "significance": "[CONTENT REQUIRED]"
+    },
+    {
+      "id": "dsip-dwasa",
+      "title": "Dhaka Sanitation Improvement Project — M&E and Results Framework",
+      "reference": "TA for preparatory activities of Dhaka sewerage network, wastewater treatment plant, non-network sanitation and septage management",
+      "client": "The World Bank and SODEV International Consulting",
+      "role": "M&E and Result Measurement Expert (International)",
+      "year": "April 2018 – June 2019",
+      "status": "Delivered",
+      "location": "Bangladesh",
+      "practice": [
+        "strategy-delivery"
+      ],
+      "features": "Four components: institutional support for sanitation service delivery; sewerage and wastewater treatment; non-network sanitation in the Pagla STP area where sewers are not feasible; and project implementation and management support to establish a Project Management Unit at DWASA.",
+      "activities": [
+        "Designed the M&E and results framework for the 5-year operation of the DSIP project."
+      ],
+      "significance": "[CONTENT REQUIRED]"
+    },
+    {
+      "id": "jica-beza-biffl",
+      "title": "Equity Investment Policy and Guideline for BIFFL and BEZA",
+      "reference": "Special Purpose Company formulation for Special Economic Zone development",
+      "client": "New Vision Solutions Limited with JICA & Japan Development Institute",
+      "role": "Executive Director & Head of Research, NVSL",
+      "year": "January 2017 – December 2017",
+      "status": "Delivered",
+      "location": "Bangladesh",
+      "practice": [
+        "policy-institutions",
+        "strategy-delivery"
+      ],
+      "features": "Provide support and reports for the JICA consultant on indigenous norms and systems of administrative operations, enabling advice to BIFFL and BEZA on designing an equity investment system and forming a sound SPC with an investor.",
+      "activities": [
+        "Coordinated with Japan Development Institute and JICA in the capacity development of BEZA and BIFFL.",
+        "Prepared documentation, SPC formulation, shareholder agreement, equity investment policy and project agreement as special assistance activities for Special Economic Zone development."
+      ],
+      "significance": "[CONTENT REQUIRED]"
+    },
+    {
+      "id": "bicf-ifc",
+      "title": "Bangladesh Investment Climate Fund — Business Regulation, Regulatory Framework and Institutional Reforms",
+      "reference": "IFC flagship project with the UK Government and the European Union",
+      "client": "IFC — World Bank Group",
+      "role": "Research and Evaluation Coordinator / Result Measurement Consultant",
+      "year": "2013 – 2015",
+      "status": "Delivered",
+      "location": "Bangladesh",
+      "practice": [
+        "policy-institutions",
+        "digital-ventures"
+      ],
+      "features": "Supported effective consultation mechanisms, governance and institutional reform to improve the investment climate of Bangladesh — business regulation reforms, regulatory framework, and institutional reforms to increase private investment in industrial land.",
+      "activities": [
+        "Led the research and evaluation team and managed monitoring and implementation activities.",
+        "Designed and implemented a Result Based Measurement and M&E framework and tools.",
+        "Created platforms for broad-based public-private dialogue on policy formulation and generated reform options.",
+        "Implemented and evaluated 20 simplification and automation projects — including IRC renewal, IRC/ERC issuance, E-TIN automation of tax registration, BSTI certification mark registration, Board of Investment processes, Business Confidence Survey 2014–16, DPDT designs and trademarks, and e-payments."
+      ],
+      "significance": "[CONTENT REQUIRED]"
+    },
+    {
+      "id": "adb-fsi-reta",
+      "title": "Strengthening Institutional Capacity to Compile and Analyze Financial Soundness Indicators",
+      "reference": "Regional Technical Assistance Project RETA 7743, Phases I–III",
+      "client": "Asian Development Bank",
+      "role": "National Consultant",
+      "year": "2014 – 2015",
+      "status": "Delivered",
+      "location": "Bangladesh",
+      "practice": [
+        "evidence-economics",
+        "policy-institutions"
+      ],
+      "features": "The TA helps participating developing member countries strengthen institutional and statistical capacity to collect, compile and disseminate internationally comparable Financial Soundness Indicators.",
+      "activities": [
+        "Assessed national accounts activities with focus on financial intermediation sectors and financial balance sheet information for 400 non-financial corporations across major economic sectors in five divisions.",
+        "Designed Indicator Development Guidelines for Bangladesh Bank and the Bangladesh Bureau of Statistics for compiling and analyzing Financial Soundness Indicators."
+      ],
+      "significance": "[CONTENT REQUIRED]"
+    },
+    {
+      "id": "global-leap",
+      "title": "Clean Energy Financing Program — Global Lighting & Energy Access Partnership",
+      "client": "CLASP International & Prokaushali Shangsad Ltd",
+      "role": "Senior Associate — Clean Energy Access",
+      "year": "June 2015 – June 2016",
+      "status": "Delivered",
+      "location": "Bangladesh",
+      "practice": [
+        "strategy-delivery",
+        "evidence-economics"
+      ],
+      "features": "Encourage self-sustaining commercial markets for energy access solutions, focusing on affordable, quality-assured off-grid lighting.",
+      "activities": [
+        "Designed and implemented a results-based financing strategy bridging viability gaps for Solar Home System companies.",
+        "Prepared the 4-year Global LEAP results-based financing M&E framework and implementation plan.",
+        "Designed results-based financing incentives and cost-recovery frameworks for off-grid renewable energy directed at SHS companies.",
+        "Estimated the viability gap (value for money) the stimulus would address; led industry matchmaking, market development and cost-benefit analysis."
+      ],
+      "significance": "[CONTENT REQUIRED]"
+    },
+    {
+      "id": "sarti-cargo",
+      "title": "South Asian Regional Trade Initiative — Cargo Loss and Damage Study",
+      "client": "IFC — World Bank Group",
+      "role": "Research and Evaluation Coordinator",
+      "year": "March 2013 – December 2015",
+      "status": "Delivered",
+      "location": "South Asia — Bangladesh, India, Nepal",
+      "practice": [
+        "evidence-economics",
+        "policy-institutions"
+      ],
+      "features": "Collected historical data (2007–2013) from active importers and exporters on port preference for entry and clearance, reasons for losses and damages, and seasonality in the loss and damage pattern.",
+      "activities": [
+        "Led research and implementation teams on ease of transaction and storage facilities for trading, to mitigate constraints in regional trade and investment.",
+        "Managed survey, monitoring and implementation activities, data analysis and report writing."
+      ],
+      "significance": "[CONTENT REQUIRED]"
+    },
+    {
+      "id": "tiga-bmgf",
+      "title": "TIGA — Technology Assessment and Farm Household Segmentation for Inclusive Poverty Reduction",
+      "reference": "Phase 1 ex-ante assessment; Phase 2 RCT (RATIOS)",
+      "client": "Bill and Melinda Gates Foundation",
+      "role": "Senior Research Associate",
+      "year": "January 2012 – January 2013",
+      "status": "Delivered",
+      "location": "Bangladesh",
+      "practice": [
+        "evidence-economics"
+      ],
+      "features": "Enhance the inclusion of all small farming communities in agricultural technology innovation by improving understanding of the interactions between technology needs, farming systems, ecological resources and poverty characteristics.",
+      "activities": [
+        "Assessed (ex-ante) the likely impact of major agricultural crop innovations and productivity growth programs on workforce productivity and livelihoods across strata of the poor.",
+        "Developed a rollout strategy for major innovations based on the assessment.",
+        "Designed project interventions and MRM systems; prepared questionnaires and methodology for baseline and endline surveys; conducted survey and data analysis.",
+        "Presented at an international seminar and co-authored a book chapter.",
+        "Supported the team leader in designing a 4-year intervention programme using RCT methodology with ZEF, University of Bonn."
+      ],
+      "significance": "[CONTENT REQUIRED]"
+    },
+    {
+      "id": "resa-electricity",
+      "title": "Regulatory Reform in the Electricity Sector in South Asia (RESA)",
+      "reference": "Pilot project on electricity reforms in Bangladesh, India (West Bengal, Rajasthan) and Nepal",
+      "client": "CUTS International & Unnayan Shamannay",
+      "role": "Research Associate",
+      "year": "January 2008 – August 2010",
+      "status": "Delivered",
+      "location": "Bangladesh, India, Nepal",
+      "practice": [
+        "policy-institutions",
+        "evidence-economics"
+      ],
+      "features": "Development of base papers for Bangladesh on electricity reforms, a training manual for territorial-level training programmes, and an advocacy document highlighting impediments.",
+      "activities": [
+        "Conducted economic and financial feasibility assessments of the impact of electricity reforms on market structures, pricing mechanisms and investment frameworks.",
+        "Analyzed tariff structures, cost-recovery models and subsidy mechanisms against financial sustainability and consumer affordability.",
+        "Developed financial models to assess public-private partnership potential, identifying investment opportunities and financial risks.",
+        "Conducted comparative cost-benefit analysis of regulatory frameworks across Bangladesh, India and Nepal."
+      ],
+      "significance": "[CONTENT REQUIRED]"
+    },
+    {
+      "id": "tobacco-taxation",
+      "title": "Policy Analysis for Tobacco Taxation",
+      "client": "Tobacco-Free Kids, USA",
+      "role": "Researcher",
+      "year": "January 2008 – December 2008",
+      "status": "Delivered",
+      "location": "Bangladesh",
+      "practice": [
+        "policy-institutions"
+      ],
+      "features": "To work towards an effective tobacco tax policy in Bangladesh to reduce tobacco consumption and influence policymakers at national level to increase tobacco taxes.",
+      "activities": [
+        "Prepared advocacy materials and drafted taxation rules and guidelines.",
+        "Organized roundtables and conferences with policymakers; direct lobbying, policy, media advocacy and capacity building.",
+        "Literature review on tobacco prices and revenues; determination of price elasticity; review of tax administration and enforcement.",
+        "Analysis of tobacco markets and industry, socio-economic impact, and the feasibility of earmarking tobacco taxes."
+      ],
+      "significance": "[CONTENT REQUIRED]"
+    }
+  ],
+  "otherAssignments": [
+    {
+      "title": "Capacity Building of Management in Education and Skills Programs (SESIP, SEIP)",
+      "client": "Asian Development Bank",
+      "role": "Consultant (Project Assessment)",
+      "year": "June 2020"
+    },
+    {
+      "title": "Bangladesh Digital and Informality Survey 2021",
+      "client": "The World Bank",
+      "role": "ST Consultant",
+      "year": "June 2020 – December 2021"
+    },
+    {
+      "title": "Covid-19 Impact Assessment — Business Pulse Survey 2020",
+      "client": "The World Bank (EFI-SAR-FCI)",
+      "role": "ST Consultant",
+      "year": "June 2020 – December 2021"
+    },
+    {
+      "title": "End-line study — beekeeping livelihoods under Promoting Agricultural Commercialization and Enterprises (PACE)",
+      "client": "IFAD & Bangladesh Association for Social Advancement",
+      "role": "Executive Director & Head of Research, NVSL",
+      "year": "May 2019"
+    },
+    {
+      "title": "Feasibility study — storage and distribution system for selected petrochemicals (BDT 700 crore capital investment)",
+      "client": "OMERA (East Coast Group)",
+      "role": "Team Lead",
+      "year": "May 2017"
+    },
+    {
+      "title": "Value Chain Mapping for 10 Selected Industries in Bangladesh",
+      "client": "Korean Institute of Industrial Economics & Trade (KIET)",
+      "role": "Team Leader",
+      "year": "2017"
+    },
+    {
+      "title": "Market demand, industry competitiveness and supply chain mapping for hot-rolled, cold-rolled and coated steel",
+      "client": "Sumitomo Corporation, Japan",
+      "role": "Team Leader",
+      "year": "2017"
+    },
+    {
+      "title": "Survey on Case Study of BOP Business in Bangladesh",
+      "client": "JETRO Bangladesh",
+      "role": "Team Lead",
+      "year": "May 2017"
+    },
+    {
+      "title": "Developing energy-efficient off-grid appliance market in Bangladesh",
+      "client": "Prokaushali Shangsad Ltd",
+      "role": "Energy Economist",
+      "year": "December 2009 – May 2011"
+    }
+  ],
+  "method": {
+    "stages": [
+      {
+        "id": "reality",
+        "label": "Reality",
+        "line": "Complex problems rarely arrive structured.",
+        "detail": "Field observation, consultation, document review, institutional context."
+      },
+      {
+        "id": "evidence",
+        "label": "Evidence",
+        "line": "Find the signal, then structure it.",
+        "detail": "Survey design, data collection, cost estimation, gap assessment."
+      },
+      {
+        "id": "model",
+        "label": "Model",
+        "line": "Build the analysis the decision actually needs.",
+        "detail": "ENPV/FNPV, EIRR/FIRR, benefit-cost ratios, scenario and sensitivity analysis."
+      },
+      {
+        "id": "decision",
+        "label": "Decision",
+        "line": "Frame alternatives against real constraints.",
+        "detail": "Options analysis, affordability, institutional capacity, risk."
+      },
+      {
+        "id": "system",
+        "label": "System",
+        "line": "Design something that can act on it.",
+        "detail": "Costed phasing, financing structure, M&E framework, delivery arrangements."
+      }
+    ],
+    "statement": "Different assignments use different methods. The underlying discipline is consistent: understand the real system, structure the evidence, test alternatives, and design for implementation."
+  },
+  "products": [
+    {
+      "id": "proposaldesk",
+      "name": "ProposalDesk",
+      "status": "LIVE",
+      "tagline": "A bid desk for donor, EOI, RFP and tender submissions.",
+      "summary": "Built for consultants, NGOs, research firms and proposal teams that need to build, fix or de-risk important submissions.",
+      "verbs": [
+        "Build",
+        "Fix",
+        "De-risk",
+        "Submit"
+      ],
+      "route": "proposaldesk"
+    }
+  ],
+  "insights": [],
+  "audiences": [
+    {
+      "id": "donor",
+      "label": "Multilateral & donor organizations",
+      "need": "Technical expertise, analytical capacity, technical assistance",
+      "route": "evidence-economics"
+    },
+    {
+      "id": "firms",
+      "label": "Consulting & research firms",
+      "need": "Specialist capacity, consortium members, subcontracting support",
+      "route": "proposaldesk"
+    },
+    {
+      "id": "ngo",
+      "label": "NGOs & development organizations",
+      "need": "Research, evaluation, policy and program design",
+      "route": "evidence-economics"
+    },
+    {
+      "id": "bd",
+      "label": "Proposal & business-development teams",
+      "need": "Tender and proposal support",
+      "route": "proposaldesk"
+    }
+  ]
+}
